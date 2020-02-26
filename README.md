@@ -26,3 +26,6 @@ EOF
 
 $ cat repos.txt | clonep -p 10
 ```
+## Example
+
+![Image description](./docs/example.svg)
