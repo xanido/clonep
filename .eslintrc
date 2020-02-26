@@ -1,14 +1,18 @@
 {
-    "parserOptions": {
-        "ecmaVersion": 2018,
-        "sourceType": "module"
-    },
-    "extends": [
-        "airbnb-base/legacy",
-        "prettier"
-    ],
-    "plugins": ["prettier"],
-    "rules": {
-      "prettier/prettier": "error"
-    }
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+  },
+  "extends": [
+      "airbnb-base/legacy",
+      "prettier"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
 }

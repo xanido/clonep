@@ -4,7 +4,11 @@
   "main": "index.js",
   "author": "Timothy Anido <xanido@gmail.com>",
   "license": "MIT",
+  "bin": {
+    "clonep": "./index.js"
+  },
   "dependencies": {
+    "args": "^5.0.1",
     "chalk": "^3.0.0",
     "cli-spinners": "^2.2.0",
     "log-update": "^4.0.0"
